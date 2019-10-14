@@ -1,0 +1,202 @@
+*{
+    transition: all 1s;
+}
+
+ .navbar-dark .navbar-brand  {
+    color: #fed136;
+         font-size: 28px;
+     font-family: 'Kaushan Script', cursive;
+
+}
+.navbar-dark .navbar-brand:hover  {
+    color: #fed136;
+         
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 14px 15px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    
+    color: #fed136;
+}
+.navbar-toggler{
+    background-color: #fed136;
+        font-size: 16px;
+    font-weight: bold;
+}
+
+
+.home{
+    background-image: url(../img/header-bg.jpg);
+   background-position: center center;
+    height: 680px;
+    background-size: cover;
+}
+.info p{
+
+     font-size: 40px;
+    
+}
+.info h1{
+   font-size: 75px;
+   
+}
+.overlay{
+    position: absolute;
+   bottom: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 33, 71, 0.7);
+    transform: scale(.9 ,.9);
+     
+}
+
+.sub-advisor {
+     overflow: hidden;
+     
+}
+.advisors .advisor-info h2
+{
+    color: #002147;
+    font-weight: 500px;
+    padding: 10px;
+}
+.sub-advisor:hover .overlay{
+    bottom: 0;
+    left: 0;
+}
+
+.info-title{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+   transform: scale(.9);
+ width: 100%;
+    transition-delay: .30s;
+}
+.sub-advisor:hover .info-title{
+    bottom: -100%;
+    left: 20px;
+}
+
+
+.info-title span{
+    color: #fed136;
+}
+.overlay a{
+    color:#fed136; 
+}
+.category{
+    background-color: #f9f9f9;
+}
+.category-info h2
+{
+    color: #002147;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.card{
+    position: relative;
+}
+
+
+.card-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+   
+   
+}
+.card-1 .card-overlay{
+    background-color: #337ab7;
+}
+.card-2 .card-overlay{
+    background-color: #1ec1d9;
+}
+.card-3 .card-overlay{
+    background-color: #10c45c;
+}
+.card-4 .card-overlay{
+    background-color: #47c58e;
+}
+.card-5 .card-overlay{
+    background-color: #f9bd44;
+}
+.card-6 .card-overlay{
+    background-color: #e948ae;
+}
+.card-7 .card-overlay{
+    background-color: #e84b3a;
+}
+.card-8 .card-overlay{
+    background-color: #92278f;
+}
+
+
+
+ .card-1:hover  .card-overlay{
+   background-color: rgba(51, 122, 180, 0.58);
+}
+ .card-2:hover  .card-overlay{
+   background-color: rgba(30, 193, 217, 0.51);
+}
+ .card-3:hover  .card-overlay{
+   background-color: rgba(16, 196, 92, 0.64);
+}
+ .card-4:hover  .card-overlay{
+   background-color: rgba(71, 197, 142, 0.6);
+}
+ .card-5:hover  .card-overlay{
+   background-color: rgba(249, 189, 68, 0.7);
+}
+ .card-6:hover  .card-overlay{
+   background-color: rgba(233, 72, 174, 0.55);
+}
+ .card-7:hover  .card-overlay{
+   background-color: rgba(232, 75, 58, 0.62);
+}
+ .card-8:hover  .card-overlay{
+   background-color: rgba(146, 39, 143, 0.48);
+}
+
+.portfolio{
+    background-color: #f8f9fa;
+}
+.card-img{
+    position: relative;
+}
+.card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.card-img:hover .card-overlay{
+    background-color: rgba(254,209,54,.9);
+}
+
+@media screen and (max-width:900px){
+    
+    .navbar-dark .navbar-brand {
+        font-size: 16px;
+    }
+    .info p{
+
+     font-size:20px;
+    
+}
+.info h1{
+   font-size: 50px;
+   
+}
+.info a{ font-size: 20px;
+font-weight: bold}
+}
